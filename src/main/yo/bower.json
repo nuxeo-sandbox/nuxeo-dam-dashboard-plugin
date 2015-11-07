@@ -1,0 +1,22 @@
+{
+  "name": "nuxeo-dam-dashboard-app",
+  "version": "0.1.0",
+  "authors": [
+    "Josh Fletcher <jfletcher@nuxeo.com>"
+  ],
+  "description": "Dashboard for Nuxeo applications that use the DAM add-on.",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "seed"
+  ],
+  "main": [
+    "index.html"
+  ],
+  "license": "LGPL",
+  "homepage": "https://github.com/jfletcher-nuxeo/nuxeo-dam-dashboard-plugin",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ]
+}
