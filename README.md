@@ -1,10 +1,16 @@
 # About Nuxeo DAM Dashboard Sample
 
-This sample uses Nuxeo Data Visualzation to create a dashboard for the Nuxeo DAM add-on.
+This sample uses [Nuxeo Data Visualzation](https://doc.nuxeo.com/x/WZCRAQ) to create a dashboard for the Nuxeo DAM add-on.
+
+It depends on the [nuxeo-dam-dashboard](https://github.com/jfletcher-nuxeo/nuxeo-dam-dashboard) Polymer component.
 
 # Building
 
+Navigate into the folder that contains `pom.xml`.
+
     mvn clean install
+
+The plugin will be placed in the `target` folder.
 
 ## Requirements
 
@@ -19,7 +25,7 @@ Building this sample requires the following software:
 
 It is recommended to deploy the marketplace package. But the plug-in may be installed directly as well. 
 
-Copy JAR bundle into `$NUXEO_HOME/nxserver/plugins/`.
+Copy JAR file into `$NUXEO_HOME/nxserver/plugins/`.
 
 ## Usage
 
