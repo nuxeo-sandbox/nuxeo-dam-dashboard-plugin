@@ -19,7 +19,11 @@ Building this sample requires the following software:
 
 It is recommended to deploy the marketplace package. But the plug-in may be installed directly as well. 
 
-Copy JAR bundle into `$NUXEO_HOME/templates/custom/bundles/` and activate the `custom` template.
+Copy JAR bundle into `$NUXEO_HOME/nxserver/plugins/`.
+
+## Usage
+
+Navigate to `http://yourserver/nuxeo/dam-dashboard`.
 
 # Resources
 
