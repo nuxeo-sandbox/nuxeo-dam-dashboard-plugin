@@ -23,21 +23,52 @@ Contributors:
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="theme-color" content="#03a9f4">
 
   <title>DAM Dashboard Demo</title>
-
-  <!-- build:css styles/main.css -->
-  <link rel="stylesheet" href="styles/main.css">
-  <!-- endbuild-->
 
   <!-- build:js bower_components/webcomponentsjs/webcomponents-lite.min.js -->
   <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
   <!-- endbuild -->
 
+  <!-- build:js vendor/jquery.js -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <!-- endbuild-->
+
+  <!-- build:js vendor/moment.js -->
+  <script src="bower_components/moment/min/moment-with-locales.js"></script>
+  <!-- endbuild-->
+
   <!-- build:vulcanized elements/elements.vulcanized.html -->
   <link rel="import" href="elements/elements.html">
   <!-- endbuild-->
+
+  <style is="custom-style">
+    body {
+      background: #fafafa;
+      font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      color: #444;
+    }
+
+    #header-title {
+      font-size: 140%;
+      display: table;
+      margin: 0 auto;
+      color: #213f7d;
+    }
+
+    #logo {
+      background: transparent url('http://dam.cloud.nuxeo.com/nuxeo/img/nuxeo_dam_logo.png') no-repeat;
+      background-size: cover;
+      display: inline-block;
+      height: 20px;
+      width: 186px;
+      ;
+    }
+
+    paper-toolbar {
+      --paper-toolbar-background: #ffffff;
+    }
+  </style>
 </head>
 
 <body unresolved class="fullbleed layout vertical">
@@ -70,14 +101,6 @@ Contributors:
     t.endDate = currentDate.format("YYYY-MM-DD");
     t.startDate = currentDate.subtract(6, 'months').format("YYYY-MM-DD");
   </script>
-
-  <!-- build:js vendor/jquery.js -->
-  <script src="bower_components/jquery/dist/jquery.js"></script>
-  <!-- endbuild-->
-
-  <!-- build:js vendor/moment.js -->
-  <script src="bower_components/moment/min/moment-with-locales.js"></script>
-  <!-- endbuild-->
 
 </body>
 

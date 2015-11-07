@@ -20,6 +20,7 @@
     "/test/"
   ],
   "dependencies": {
-    "nuxeo-dam-dashboard": "jfletcher-nuxeo/nuxeo-dam-dashboard#~1.0.0"
+    "nuxeo-dam-dashboard": "jfletcher-nuxeo/nuxeo-dam-dashboard#~1.0.0",
+    "moment": "~2.10.6"
   }
 }
