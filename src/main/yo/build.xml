@@ -32,14 +32,13 @@
     <exec executable="${cmd.npm}" failonerror="true">
       <arg value="install" />
     </exec>
-    <bower-fetch artifact="polymerelements:iron-elements:1.0.4" />
-    <bower-fetch artifact="polymerelements:paper-elements:1.0.5" />
     <exec executable="${cmd.bower}" failonerror="true">
       <arg value="install" />
     </exec>
   </target>
 
   <target name="build" depends="init,build-with-tests,build-skip-tests" />
+
   <target name="build-with-tests" unless="skipTests">
     <echo message="build and test" />
     <exec executable="${cmd.grunt}" failonerror="true">
