@@ -18,5 +18,8 @@
   "ignore": [
     "/.*",
     "/test/"
-  ]
+  ],
+  "dependencies": {
+    "nuxeo-dam-dashboard": "jfletcher-nuxeo/nuxeo-dam-dashboard#~1.0.0"
+  }
 }
