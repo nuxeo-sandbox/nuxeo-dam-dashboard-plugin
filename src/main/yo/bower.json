@@ -14,13 +14,13 @@
     "index.html"
   ],
   "license": "LGPL",
-  "homepage": "https://github.com/jfletcher-nuxeo/nuxeo-dam-dashboard-plugin",
+  "homepage": "https://github.com/nuxeo-sandbox/nuxeo-dam-dashboard-plugin",
   "ignore": [
     "/.*",
     "/test/"
   ],
   "dependencies": {
-    "nuxeo-dam-dashboard": "jfletcher-nuxeo/nuxeo-dam-dashboard#~1.0.0",
+    "nuxeo-dam-dashboard": "nuxeo-sandbox/nuxeo-dam-dashboard#~1.0.1",
     "moment": "~2.10.6"
   }
 }

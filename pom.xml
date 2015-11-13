@@ -60,8 +60,8 @@
   </repositories>
 
   <scm>
-    <connection>scm:git:git://github.com/jfletcher-nuxeo/nuxeo-dam-dashboard-plugin.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com:jfletcher-nuxeo/nuxeo-dam-dashboard-plugin.git</developerConnection>
-    <url>https://github.com/jfletcher-nuxeo/nuxeo-dam-dashboard-plugin</url>
+    <connection>scm:git:git://github.com/nuxeo-sandbox/nuxeo-dam-dashboard-plugin.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:nuxeo-sandbox/nuxeo-dam-dashboard-plugin.git</developerConnection>
+    <url>https://github.com/nuxeo-sandbox/nuxeo-dam-dashboard-plugin</url>
   </scm>
 </project>

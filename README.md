@@ -1,8 +1,17 @@
-# About Nuxeo DAM Dashboard Sample
+# About Nuxeo DAM Dashboard Plugin
 
-This sample uses [Nuxeo Data Visualzation](https://doc.nuxeo.com/x/WZCRAQ) to create a dashboard for the Nuxeo DAM add-on.
+This Nuxeo plugin uses [Nuxeo Data Visualzation](https://doc.nuxeo.com/x/WZCRAQ) to create a dashboard for the Nuxeo DAM add-on.
 
-It depends on the [nuxeo-dam-dashboard](https://github.com/jfletcher-nuxeo/nuxeo-dam-dashboard) Polymer component.
+It depends on the [nuxeo-dam-dashboard](https://github.com/nuxeo-sandbox/nuxeo-dam-dashboard) Polymer component.
+
+# Requirements
+
+See [CORG/Compiling Nuxeo from sources](http://doc.nuxeo.com/x/xION)
+
+Building this sample requires the following software:
+
+- [Node.js] (http://nodejs.org)
+- [Bower] (http://bower.io)
 
 # Building
 
@@ -12,22 +21,13 @@ Navigate into the folder that contains `pom.xml`.
 
 The plugin will be placed in the `target` folder.
 
-## Requirements
-
-See [CORG/Compiling Nuxeo from sources](http://doc.nuxeo.com/x/xION)
-
-Building this sample requires the following software:
-
-- [Node.js] (http://nodejs.org)
-- [Bower] (http://bower.io)
-
-## Deploying
+# Deploying
 
 It is recommended to deploy the marketplace package. But the plug-in may be installed directly as well. 
 
 Copy JAR file into `$NUXEO_HOME/nxserver/plugins/`.
 
-## Usage
+# Usage
 
 Navigate to `http://yourserver/nuxeo/dam-dashboard`.
 
@@ -43,6 +43,4 @@ Contact [jfletcher@nuxeo.com](mailto:jfletcher@nuxeo.com)
 
 # About Nuxeo
 
-Nuxeo dramatically improves how content-based applications are built, managed and deployed, making customers more agile, innovative and successful. Nuxeo provides a next generation, enterprise ready platform for building traditional and cutting-edge content oriented applications. Combining a powerful application development environment with
-SaaS-based tools and a modular architecture, the Nuxeo Platform and Products provide clear business value to some of the most recognizable brands including Verizon, Electronic Arts, Netflix, Sharp, FICO, the U.S. Navy, and Boeing. Nuxeo is headquartered in New York and Paris.
-More information is available at [www.nuxeo.com](http://www.nuxeo.com).
+Nuxeo dramatically improves how content-based applications are built, managed and deployed, making customers more agile, innovative and successful. Nuxeo provides a next generation, enterprise ready platform for building traditional and cutting-edge content oriented applications. Combining a powerful application development environment with SaaS-based tools and a modular architecture, the Nuxeo Platform and Products provide clear business value to some of the most recognizable brands including Verizon, Electronic Arts, Netflix, Sharp, FICO, the U.S. Navy, and Boeing. Nuxeo is headquartered in New York and Paris. More information is available at [www.nuxeo.com](http://www.nuxeo.com).
