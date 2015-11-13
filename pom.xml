@@ -9,7 +9,7 @@
 
   <groupId>org.nuxeo.sample</groupId>
   <artifactId>nuxeo-dam-dashboard</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.2-SNAPSHOT</version>
   <name>Nuxeo DAM Dashboard Sample</name>
   <description>Nuxeo DAM Dashboard Sample</description>
 
