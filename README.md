@@ -21,6 +21,14 @@ Navigate into the folder that contains `pom.xml`.
 
 The plugin will be placed in the `target` folder.
 
+# Experimenting
+
+You can run the application without installing it in Nuxeo:
+
+    grunt serve
+
+By default a proxy is created to localhost to handle Nuxeo authentication.  You can modify `Gruntfile.js` to change the proxy settings.
+
 # Deploying
 
 It is recommended to deploy the marketplace package. But the plug-in may be installed directly as well. 
