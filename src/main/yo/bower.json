@@ -20,7 +20,7 @@
     "/test/"
   ],
   "dependencies": {
-    "nuxeo-dam-dashboard": "nuxeo-sandbox/nuxeo-dam-dashboard#~1.0.3",
+    "nuxeo-dam-dashboard": "nuxeo-sandbox/nuxeo-dam-dashboard#~1.0.4",
     "moment": "~2.10.6"
   }
 }
