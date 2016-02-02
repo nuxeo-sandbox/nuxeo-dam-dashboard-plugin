@@ -21,6 +21,10 @@
   ],
   "dependencies": {
     "nuxeo-dam-dashboard": "nuxeo-sandbox/nuxeo-dam-dashboard#~1.0.4",
-    "moment": "~2.10.6"
+    "moment": "~2.10.6",
+    "nuxeo-elements": "nuxeo/nuxeo-elements#~0.2.4",
+    "paper-header-panel": "PolymerElements/paper-header-panel#~1.1.2",
+    "paper-toolbar": "PolymerElements/paper-toolbar#~1.1.4",
+    "paper-card": "PolymerElements/paper-card#~1.1.1"
   }
 }
